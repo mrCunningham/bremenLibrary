@@ -1,0 +1,150 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$nav-bg: #39b54a;
+$nav-text: #f3f3f3;
+$dropdown-text: #039;
+
+$container-max-widths: ("xl": 1200px );
+
+//---- Header and Navbar styling ------
+$theme-colors: ( "library": $nav-bg );
+$dropdown-border-color: $nav-bg;
+$dropdown-link-color: $dropdown-text;
+$navbar-light-color: $nav-text;
+$navbar-padding-y: 0;
+
+@include media-breakpoint-between(xs,md){
+	.header{
+		background: $nav-bg;
+	}
+}
+@include media-breakpoint-up(lg){
+	.header{
+		background: $nav-bg url("../assets/header/bpl3.gif") no-repeat;
+		background-size: 100%;
+	}
+}
+.header a{
+	background-color: transparent;
+	padding-left: 20px;
+}
+.nav-item{
+	border-right: 1px solid white;
+}
+.navbar{
+	border-top: 1px solid white;
+	padding: 0px;
+}
+
+#searchBar{
+	padding-right: 1rem;
+}
+.form-check-label{
+	color: white;
+}
+#search{
+	padding-left: 0px;
+	padding-top: .25rem;
+	margin-bottom: 0px;
+}
+
+//---- Carousel Styling ------
+$carousel-control-color:	black;
+$carousel-indicator-active-bg:	black;
+
+@include media-breakpoint-between(xs,sm)
+{
+	.carousel-inner{
+		max-height: 575px;
+	}
+	#calendar{
+		width: 100%;
+		height: 269px !important;
+	}	
+}
+@include media-breakpoint-only(md)
+{
+	.carousel-inner{
+		max-height: 336px;
+	}
+	#calendar{
+		width: 100%;
+		height: 225px !important;
+	}	
+}
+@include media-breakpoint-only(lg)
+{
+	.carousel-inner{
+		max-height: 455px;
+	}
+	#calendar{
+		width: 100%;
+		height: 378px;
+	}	
+}
+@include media-breakpoint-only(xl)
+{
+	.carousel-inner{
+		max-height: 575px;
+	}
+	#calendar{
+		width: 100%;
+		height: 496px;
+	}	
+}
+
+
+//---- Footer Styling ------
+footer{
+	background-color: #32883d;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: white;
+}
+footer span{
+	color: white;
+}
+footer img{
+	width: 29px;
+	height: 29px;
+}
+.footerLinks{
+	padding-left: 1rem;
+}
+
+address{
+	color: white;
+}
+@include media-breakpoint-up(sm){
+	.address {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}	
+}
+
+@include media-breakpoint-only(xs){
+	address{
+		font-size: .9rem !important;
+		padding-bottom: 0px !important;
+		margin-bottom: 0px !important;
+	}
+}
+
+
+
+
+
+//---- Content Styling ------
+.content{
+	border: solid 1px $nav-bg;
+
+}
+
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
