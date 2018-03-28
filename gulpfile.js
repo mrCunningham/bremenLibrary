@@ -22,7 +22,7 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
         proxy: "localhost:8001/Library/src/pages/index.php",
-        host: "10.1.4.90"
+        host: "192.168.1.45"
     });
 
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], ['sass']);

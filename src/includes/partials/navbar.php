@@ -55,7 +55,7 @@
 						<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown">About</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown09">
 							<a class="dropdown-item" href="depts.php">Our Collection</a>
-							<a class="dropdown-item" href="#">eBooks &amp; Digital Materials</a>
+							<a class="dropdown-item" href="ebooks.php">eBooks &amp; Digital Materials</a>
 							<a class="dropdown-item" href="#">Hours</a>
 							<a class="dropdown-item" href="#">Location</a>
 							<a class="dropdown-item" href="#">Policies</a>

@@ -142,9 +142,16 @@ address{
 	border: solid 1px $nav-bg;
 
 }
-
-
-
+#contentImage {
+	width: 100%;
+	height: auto;
+}
+@include media-breakpoint-up(lg){
+	#contentImage {
+		width: 650px;
+		height: auto;
+	}
+}
 
 
 @import "node_modules/bootstrap/scss/bootstrap";

@@ -6121,6 +6121,15 @@ address {
 .content {
   border: solid 1px #39b54a; }
 
+#contentImage {
+  width: 100%;
+  height: auto; }
+
+@media (min-width: 992px) {
+  #contentImage {
+    width: 650px;
+    height: auto; } }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
